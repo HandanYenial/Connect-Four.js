@@ -41,6 +41,13 @@ h1{
   border-radius:50%; /*To make it circle*/
 
 }
+@keyframes dropdown {
+  from {
+    transform: translateY(-400px);
+  }
+  to{
+    transform: translateY(0px);
+  }
 
 /* TODO: make pieces red/blue,  depending on player 1/2 piece */
 .piece.p1{
